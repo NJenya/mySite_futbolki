@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Заказ футболок Лучшие футболки</title>
+	<link rel="stylesheet" type="text/css" href="style/main.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/script.js"></script>
+</head>
+<body>
+	<div class="leftBar">
+		<div class="logo">
+			<a href="index.html"><img src="img/FT logo.png" title="futbolki.top"></a>
+		</div>
+		<div class="leftMenu">
+			<!--<i class="fas fa-bars"></i>-->
+		</div>
+		<div class="socialLink">
+			<a href="https://www.facebook.com/FutbolkiVn" target="_blank"><i class="fab fa-facebook-f"></i></a>
+			<a href="https://www.instagram.com/futbolki_top" target="_blank"><i class="fab fa-instagram"></i></a>
+			<a href="viber://chat?number=+380632421142"><i class="fab fa-viber"></i></a>
+		</div>
+	</div>
+	<div class="wrapper">
+		<header>
+			<!--<button><i class="fas fa-list-ul"></i></button>
+			<button><i class="fas fa-th-large"></i></button>
+			<button><i class="fas fa-th"></i></button>-->
+			<a></a><button id="filterButton" onclick="myToggle()">ЗАКАЗАТЬ</button>
+			<!--<button><i class="fas fa-shopping-basket"></i></button>-->
+		</header>
+		<div id="filter">
+			<div class="filterColumn">
+				<h3>sort by</h3>
+				<p>defaul</p>
+				<p>popularity</p>
+				<p>newest</p>
+				<p>price: low to hight</p>
+				<p>price: hight to low</p>
+			</div>
+			<div class="filterColumn">
+				<h3>gender</h3>
+				<p>show all</p>
+				<p>men</p>
+				<p>women</p>
+			</div>
+			<div class="filterColumn">
+				<h3>product</h3>
+				<p>show all</p>
+				<p>shoes</p>
+				<p>bags</p>
+				<p>sunglasses</p>
+				<p>accessories</p>
+			</div>
+			<div class="filterColumn">
+				<h3>color</h3>
+				<p>show all</p>
+				<p>black</p>
+				<p>brown</p>
+				<p>grey</p>
+				<p>white</p>
+				<p>red</p>
+				<p>green</p>
+				<p>orange</p>
+				<p>blue</p>
+			</div>
+			<div class="filterColumn">
+				<h3>price</h3>
+				<p>show all</p>
+				<p>0 - 99</p>
+				<p>100 - 499</p>
+				<p>500 - 999</p>
+				<p>1000 - 1999</p>
+				<p>2000 - 4999</p>
+				<p>5000 - 9999</p>
+			</div>
+		</div>
+		<div class="items">
+			<div class="item">
+				<img src="img/brazzers%20black.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">BRAZZERS</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/iconspeak.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">ICON SREAK</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/proggramer3.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">javascript</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/ACDC%20black.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">acdc</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/batman%20art.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">batman art</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/batman.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">batman</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/Battlecity.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">battlecity</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/capitan%20art.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">capitan america</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/capitan.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">capitan america 2</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/champions.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">champions league</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/Crush%20all%20humans.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">crush all hu-mans</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/fallout%203.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">fallout</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/joker.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">joker</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/MARVEL%20black.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">marvel</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/MARVEL%20black2.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">marvel 2</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/proggramer1.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">c#</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/proggramer2.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">html5</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/proggramer4.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">java</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/proggramer5.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">css3</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/rockstar.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">rockstar</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/smile.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">smile</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/spiderman.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">spiderman</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/thing.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">thing outside the box</p>
+				<p>249грн</p>
+			</div>
+			<div class="item">
+				<img src="img/wot%20black.jpg" class="minimized" alt="клик для увеличения">
+				<p id="name">world of tanks</p>
+				<p>249грн</p>
+			</div>
+		</div>
+		<footer>
+		<div class="container">
+			<p>
+				 © 2010-2018 Futbolki.top. Все права защищены.
+			</p>
+		</div>
+	</footer>
+	</div>
+</body>
+</html>
